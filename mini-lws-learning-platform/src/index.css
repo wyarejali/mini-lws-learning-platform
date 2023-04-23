@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-[#080E1B] text-[#e2e8f0];
+    }
+
+    .bg-primary {
+        @apply bg-[#080E1B];
+    }
+
+    .bg-secondary {
+        @apply bg-[#0a1121];
+    }
+
+    nav a {
+        @apply opacity-75 hover:opacity-100;
+    }
+
+    .active {
+        @apply font-semibold opacity-100;
+    }
+}
