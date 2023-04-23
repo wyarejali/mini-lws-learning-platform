@@ -2,7 +2,7 @@
 
 Fully functional e-learning platform build with react
 
-**Demo** [Live Preview](https://mini-lws.netlify.app/)
+**Demo** [Live Preview](https://wa-mini-lws.netlify.app/)
 
 ## Directory
 
