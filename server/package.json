@@ -2,9 +2,10 @@
     "name": "lws-json-server-todos",
     "description": "Example in memory todos api with json-server by Learn with Sumit",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "server.js",
     "scripts": {
-        "start": "json-server --watch db.json --no-cors --delay 500 true -m ./node_modules/json-server-auth  --port 9000"
+        "dev": "json-server --watch db.json --no-cors --delay 500 true -m ./node_modules/json-server-auth  --port 9000",
+        "start": "json-server --watch db.json --no-cors -m ./node_modules/json-server-auth --port"
     },
     "dependencies": {
         "json-server": "^0.17.1",
