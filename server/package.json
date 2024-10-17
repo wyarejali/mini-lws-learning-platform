@@ -1,6 +1,6 @@
 {
-    "name": "lws-json-server-todos",
-    "description": "Example in memory todos api with json-server by Learn with Sumit",
+    "name": "lms-server",
+    "description": "Server for her-power",
     "version": "1.0.0",
     "main": "server.js",
     "scripts": {
@@ -12,6 +12,6 @@
         "json-server-auth": "^2.1.0"
     },
     "keywords": [],
-    "author": "Sumit Saha, Learn with Sumit",
+    "author": "Wyarej Ali",
     "license": "ISC"
 }
